@@ -14,4 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require materialize
-//= require_tree .
+
+// My JS
+//= require home
+
+$(function(){
+    $(".button-collapse").sideNav();
+});

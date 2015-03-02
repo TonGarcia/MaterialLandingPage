@@ -12,8 +12,10 @@
  *
  *= require font-awesome
  *= require bootstrap-social
- *= require_tree .
- *= require_self
+ *
+ * My CSS
+ *= require fast_fix
+ *= require home
  */
 
 @import "materialize";
