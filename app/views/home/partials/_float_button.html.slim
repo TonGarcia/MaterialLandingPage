@@ -1,0 +1,8 @@
+.fixed-action-btn style="bottom: 12%; right: 24px;"
+  .btn-floating.btn-large.red
+    i.large.mdi-social-person-add
+  ul
+    -ENUM[:social_networks].reverse.each do |social_network|
+      li
+        a href="#{social_login social_network[:auth_gem]}" class="btn-floating btn-small waves-effect waves-light #{social_network[:style]} tooltipped" data-position="left" data-tooltip="#{social_network[:name]}"
+          i class="fa fa-#{social_network[:username]}"

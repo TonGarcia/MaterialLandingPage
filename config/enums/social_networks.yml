@@ -1,0 +1,25 @@
+social_networks:
+- name:     Google+
+  username: google-plus
+  auth_gem: google_oauth2
+  style:    red
+
+- name:     Instagram
+  username: instagram
+  auth_gem: instagram
+  style:    light-blue darken-4
+
+- name:     LinkedIn
+  username: linkedin
+  auth_gem: linkedin
+  style:    light-blue darken-2
+
+- name:     Facebook
+  username: facebook
+  auth_gem: facebook
+  style:    blue
+
+- name:     Twitter
+  username: twitter
+  auth_gem: twitter
+  style:    light-blue lighten-3

@@ -6,8 +6,40 @@ nav ul#mobile-demo.customized li:hover, nav ul li.active {
   padding-left: 10px;
 }
 
-footer {
+footer.page-footer {
   bottom: 0;
   width: 100%;
   position: fixed;
+
+  .footer-copyright {
+    #copyright {
+      text-align: center;
+    }
+
+    div.fb-like.fb_iframe_widget {
+      bottom: 21px;
+    }
+  }
+
+  .card a {
+    color: #BBB;
+    text-transform: none;
+  }
+
+  .card a:hover {
+    color: #9F9F9F;
+  }
+
+  i.fa {
+    font-size: 1.5em;
+    margin-right: 5px;
+  }
+
+  ul li {
+    margin-bottom: 15px;
+  }
+
+  ul li:last-child {
+    margin-bottom: 0;
+  }
 }

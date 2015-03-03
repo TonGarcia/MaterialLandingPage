@@ -74,6 +74,9 @@ gem 'autoprefixer-rails'
 # for the social-buttons
 gem 'jasny_bundle', '~> 2.1.2', git: 'https://github.com/TonFw/jasny-bundle.git', branch: 'master'
 
+# SocialButtons PlugIn
+gem 'shareable', '~> 1.1.4'
+
 # GEMs to work only on test & development environments
 group :development, :test do
   # RSPec for BDD pratices

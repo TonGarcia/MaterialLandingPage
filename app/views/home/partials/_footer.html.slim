@@ -1,23 +1,46 @@
 footer class="page-footer #{@visual_identity}"
   .container
     .row
-      .col.l6.s12
-        h5.white-text Footer Content
-        p.grey-text.text-lighten-4 You can use rows and columns here to organize your footer content
-      
-      .col.l4.offset-l2.s12
-        h5.white-textLinks
-        ul
-          li
-            a.grey-text.text-lighten-3 href="#!" Link 1
-          li
-            a.grey-text.text-lighten-3 href="#!" Link 2
-          li
-            a.grey-text.text-lighten-3 href="#!" Link 3
-          li
-            a.grey-text.text-lighten-3 href="#!" Link 4
+      .col.l12.s12
+        #social_pages.card.col.s12.l5
+          ul
+            li
+              a href="#"
+                i.fa.fa-twitter-square style="color:#0AD;"
+                =" @app_name"
+            li
+              a href="#"
+                i.fa.fa-facebook-square style="color:#369;"
+                =" facebook.com/app_name"
+            li
+              a href="#"
+                i.fa.fa-google-plus-square style="color:#C20;"
+                =" plus.google.com/app_name"
 
-  .footer-copyright
+        #mobile_apps.card.col.s12.offset-l2.l5
+          ul
+            li
+              a href="#"
+                i.fa.fa-apple style="color:#BBB;"
+                =" Baixe na App Store"
+            li
+              a href="#"
+                i.fa.fa-android style="color:#6D0;"
+                =" Baixe no Google Play"
+            li
+              a href="#"
+                i.fa.fa-windows style="color:#369;"
+                =" Baixe na Windows Phone Store"
+
+  .footer-copyright style="height: auto;"
     .container
-      | © 2014 Copyright Text
-      a.grey-text.text-lighten-4.right href="#!" More Links
+      .row
+        .col.l12.s12
+          #copyright.col.l4.s12
+            | © 2014 Copyright app_name
+          .col.l3.s4
+            = twitter_button
+          .col.l3.s4
+            = facebook_button
+          .col.l2.s4
+            = google_plus_button
