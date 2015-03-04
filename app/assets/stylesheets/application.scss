@@ -16,6 +16,13 @@
  * My CSS
  *= require fast_fix
  *= require home
+ *
+ *  Media Queries
+ *= require small_resolutions
+ *= require smartphone_landscape
+ *= require smartphone_portrait
+ *= require tablet_landscape
+ *= require tablet_portrait
  */
 
 @import "materialize";

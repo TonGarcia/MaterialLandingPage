@@ -19,5 +19,6 @@
 //= require home
 
 $(function(){
+    $('.slider').slider();
     $(".button-collapse").sideNav();
 });

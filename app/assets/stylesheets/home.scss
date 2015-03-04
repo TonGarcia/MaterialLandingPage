@@ -1,3 +1,28 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#costumers_feedback {
+  margin: 25px 0 245px 0;
+
+  .slider {
+    height: auto;
+
+    ul.slides {
+      height: auto;
+    }
+  }
+
+  .card-panel {
+    padding-left: 7%;
+    padding-bottom: 1%;
+  }
+
+  .profile.caption {
+    margin-left: 14%;
+  }
+
+  .indicators {
+    margin-bottom: -235px;
+  }
+}
