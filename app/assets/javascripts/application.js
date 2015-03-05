@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require materialize
+//= require scrollTo.min
 
 // My JS
 //= require home
@@ -21,4 +22,7 @@
 $(function(){
     $('.slider').slider();
     $(".button-collapse").sideNav();
+    $('.nav_actions a').scrollTo({
+        speed: 500
+    });
 });

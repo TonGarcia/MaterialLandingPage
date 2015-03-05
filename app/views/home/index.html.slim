@@ -1,50 +1,26 @@
-/! TODO, edit it visual_identity to your colors, like teal lighten
--@visual_identity_color = 'teal'
--@visual_identity_color_intensity = 'darken-'
--@visual_identity_color_intensity_nvl = '1'
--@visual_identity_color_with_intensity_type = "#{@visual_identity_color} #{@visual_identity_color_intensity}"
+#homepage
+  =render 'home/partials/components/variables'
+  =render 'home/partials/nav'
+  =render 'home/partials/float_button'
 
--@visual_identity_color2 = 'amber'
--@visual_identity_color_intensity2 = 'accent-'
--@visual_identity_color_intensity_nvl2 = '3'
--@visual_identity_color_with_intensity_type2 = "#{@visual_identity_color2} #{@visual_identity_color_intensity2}"
+  #features.container
+    .divider
+  .section
+    .container
+      .row
+        =render 'home/partials/features'
 
--@visual_identity_color3 = 'red'
--@visual_identity_color_intensity3 = 'darken-'
--@visual_identity_color_intensity_nvl3 = '1'
--@visual_identity_color_with_intensity_type3 = "#{@visual_identity_color3} #{@visual_identity_color_intensity3}"
+  #people_saying.container
+    .divider
+  .section
+    .container
+      .row
+        =render 'home/partials/feedback'
 
--@visual_identity = "#{@visual_identity_color_with_intensity_type}#{@visual_identity_color_intensity_nvl}"
--@visual_identity2 = "#{@visual_identity_color_with_intensity_type2}#{@visual_identity_color_intensity_nvl2}"
--@visual_identity3 = "#{@visual_identity_color_with_intensity_type3}#{@visual_identity_color_intensity_nvl3}"
-
--@text_visual_identity = "amber-text text-lighten-1"
--@text_visual_identity2 = "teal-text text-darken-1"
--@text_visual_identity3 = "red-text text-darken-1"
-
--@mobile_text_visual_identity = @text_visual_identity #"teal-text text-darken-1"
-
-=render 'home/partials/nav'
-=render 'home/partials/float_button'
-
-.container
-  .divider
-.section
-  .container
-    .row
-      =render 'home/partials/features'
-
-.container
-  .divider
-.section
-  .container
-    .row
-      =render 'home/partials/feedback'
-
-.container
-  .divider
-.section
-  .container
-    .row
-      =render 'home/partials/prices'
-=render 'home/partials/footer'
+  #prices.container
+    .divider
+  .section
+    .container
+      .row
+        =render 'home/partials/prices'
+  =render 'home/partials/footer'
