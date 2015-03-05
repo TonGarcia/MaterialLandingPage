@@ -2,6 +2,15 @@
 @media only screen
 and (max-width : 600px) {
 
+  #homepage {
+    .fixed-action-btn {
+      .btn-floating {
+        right: 0;
+        bottom: -30px;
+      }
+    }
+  }
+
   div[id*=_feedback] {
     .card-panel {
       height: 191px;

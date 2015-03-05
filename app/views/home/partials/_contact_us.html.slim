@@ -1,0 +1,20 @@
+h3.center.weak.black-text ContactUs
+#contact_us.col.l12.s12
+  .input-field.col.l6.s12
+    i.mdi-action-account-circle.prefix
+    input#i_first_name.validate type="text"
+    label for="i_first_name" First Name
+
+  .input-field.col.l6.s12
+    i.mdi-communication-email.prefix
+    input#i_email.validate type="text"
+    label for="i_email" E-mail
+
+  .input-field.col.l12.s12
+    i.mdi-communication-message.prefix
+    textarea#i_msg.validate.materialize-textarea type="text"
+    label for="i_msg" Message
+
+  button.btn.btn-large#submit-btn.waves-effect.waves-light.right onclick="toast('Message sent!', 500, 'rounded')"
+    i.mdi-content-send.left
+    | Submit

@@ -6,6 +6,10 @@
   .divider {
     margin: 0 0 25px;
   }
+
+  .fixed-action-btn {
+      bottom: 5%;
+  }
 }
 
 .weak {
@@ -109,5 +113,11 @@ div[id*=feedback] {
     .price_value {
       font-size: 2em;
     }
+  }
+}
+
+#contact_us {
+  #submit-btn {
+    margin: 10px 0;
   }
 }

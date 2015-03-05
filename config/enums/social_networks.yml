@@ -4,15 +4,15 @@ social_networks:
   auth_gem: google_oauth2
   style:    red
 
-- name:     Instagram
-  username: instagram
-  auth_gem: instagram
-  style:    light-blue darken-4
+#- name:     Instagram
+#  username: instagram
+#  auth_gem: instagram
+#  style:    light-blue darken-4
 
-- name:     LinkedIn
-  username: linkedin
-  auth_gem: linkedin
-  style:    light-blue darken-2
+#- name:     LinkedIn
+#  username: linkedin
+#  auth_gem: linkedin
+#  style:    light-blue darken-2
 
 - name:     Facebook
   username: facebook
