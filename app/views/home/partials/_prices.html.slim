@@ -1,0 +1,6 @@
+h3.center.weak.black-text Pricing
+#pricing
+  -4.times do |i|
+    .col.s12.l3
+      -(i == 2) ? @custom_class = "#{@visual_identity3} white-text" : @custom_class = ''
+      =render 'home/partials/components/price'

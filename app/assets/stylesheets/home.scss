@@ -2,7 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#costumers_feedback {
+.weak {
+  font-weight: 100;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.feature {
+  i {
+    font-size: 3em;
+  }
+}
+
+div[id*=feedback] {
   margin: 25px 0 245px 0;
 
   .slider {
@@ -10,19 +24,84 @@
 
     ul.slides {
       height: auto;
+
+      img.profile {
+        border: 3px solid black;
+      }
+
+      img.profile.partner {
+        border-color: #ffca28 !important;
+      }
+
+      img.profile.consumer {
+        border-color: #00897b !important;
+      }
+
+      img.partner.brand {
+        /* TODO, which is better?
+        top: -35px;
+        left: 45px;
+        width: 50%;
+        */
+
+        top: 5px;
+        left: 25%;
+        width: 45px;
+        position: relative;
+        background-color: white;
+        border-color: white !important;
+      }
+
+      li{
+        .card-panel {
+          max-height: 200px;
+          min-height: 200px;
+        }
+      }
+    }
+
+    ul.indicators {
+      margin-bottom: -250px;
+    }
+
+    .card-panel {
+      padding-left: 2%;
+      padding-bottom: 1%;
+    }
+
+    .profile.caption {
+      top: 5%;
+      left: 17%;
+      margin-left: 14%;
     }
   }
+}
 
-  .card-panel {
-    padding-left: 7%;
-    padding-bottom: 1%;
-  }
+#pricing {
+  .card {
+    .card-title,
+    i.mdi-navigation-close.right {
+      color: black;
+    }
 
-  .profile.caption {
-    margin-left: 14%;
-  }
+    .description {
+      margin-top: 10px;
+      margin-bottom: 70px;
+    }
 
-  .indicators {
-    margin-bottom: -235px;
+    .card_menu {
+      left: 95%;
+      right: 50%;
+      bottom: 15px;
+      position: absolute;
+    }
+
+    .price_symbol {
+      font-size: 1.1em;
+    }
+
+    .price_value {
+      font-size: 2em;
+    }
   }
 }

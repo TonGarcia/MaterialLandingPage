@@ -2,15 +2,21 @@
 @media only screen
 and (max-width : 600px) {
 
-  #costumers_feedback {
+  div[id*=_feedback] {
     .card-panel {
       height: 191px;
     }
 
-    .profile.caption {
-      top: 10%;
-      width: 65%;
-      margin-left: 20%;
+    .slider {
+      ul.slides {
+        li {
+          .profile.caption {
+            top: 10%;
+            width: 65%;
+            margin-left: 15%;
+          }
+        }
+      }
     }
   }
 

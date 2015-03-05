@@ -1,0 +1,18 @@
+div class="card #{@custom_class}"
+  .card-content
+    .center
+      span class="#{@custom_class} card-title" CardTitle
+    .center
+      p.price_symbol
+        | $
+        span.price_value 50
+    .description.justify
+      p Fast & simple desc, all features goes on the "menu button". Just take a look on it
+    div.card_menu
+      span.card-title.activator
+        i class="#{@custom_class} mdi-navigation-more-vert right"
+  div class="#{@custom_class} card-reveal"
+    span class="#{@custom_class} card-title"
+      | Card Title
+      i class="#{@custom_class} mdi-navigation-close right"
+    p Here is some more information about this product that is only revealed once clicked on
