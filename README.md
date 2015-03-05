@@ -1,6 +1,7 @@
 # MaterialLandingPage
 MaterialDesign LandingPage 
 For mobile app LandingPage just copy the [GoogleMobilePage](http://www.google.com/mobile/maps/)
+[__Sample landing page layout running__](homelanding.herokuapp.comg)
 
 Demo apps to inspire:
   - [__Topeka__](https://polymer-topeka.appspot.com/)
