@@ -104,7 +104,7 @@ end
 gem 'font-awesome-rails', '~> 4.2.0.0'
 
 # Rails google materialize
-gem 'materialize-sass', '~> 0.95.2'
+gem 'materialize-sass', '0.95.3'
 
 # USEFUL GEMs
 # Gem for encrypt Password

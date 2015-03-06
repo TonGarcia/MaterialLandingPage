@@ -10,6 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ * Frameworks
  *= require font-awesome
  *= require bootstrap-social
  *
@@ -18,11 +19,11 @@
  *= require home
  *
  *  Media Queries
- *= require small_resolutions
- *= require smartphone_landscape
- *= require smartphone_portrait
- *= require tablet_landscape
- *= require tablet_portrait
+ *= require media_queries/small_resolutions.scss
+ *= require media_queries/smartphone_landscape
+ *= require media_queries/smartphone_portrait
+ *= require media_queries/tablet_landscape
+ *= require media_queries/tablet_portrait
  */
 
 @import "materialize";

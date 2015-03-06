@@ -10,9 +10,12 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// Rails Frameworks
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+
+// PlugIns
 //= require materialize
 //= require scrollTo.min
 

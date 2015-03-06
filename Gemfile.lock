@@ -306,7 +306,7 @@ DEPENDENCIES
   just_share (~> 1.0.4)
   koala (~> 1.11.1)
   linkedin (~> 1.0.0)
-  materialize-sass (~> 0.95.2)
+  materialize-sass (= 0.95.3)
   mysql2
   newrelic_rpm
   omniauth (~> 1.2.2)
