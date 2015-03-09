@@ -1,2 +1,76 @@
-h3.center.weak.black-text More things done, less effort
-=render 'home/partials/components/feature'
+h3.center.weak.black-text Ganhe mais, com menos esforço
+
+.row
+  h4 class="weak #{@text_visual_identity2}" Costumers
+  -@desc_icon = 'mdi-social-people'
+  -@desc_icon_color = @text_visual_identity
+  -@caption = 'Social'
+  =render 'home/partials/components/feature'
+
+  -@desc_icon = 'mdi-editor-attach-money'
+  -@desc_icon_color = @text_visual_identity2
+  -@caption = 'Lucre'
+  =render 'home/partials/components/feature'
+
+  -@desc_icon = 'mdi-action-payment'
+  -@desc_icon_color = @text_visual_identity3
+  -@caption = 'Saques'
+  =render 'home/partials/components/feature'
+
+.divider
+
+.row
+  h4 class="weak #{@text_visual_identity}" Partners
+  -@desc_icon = 'fa fa-bank'
+  -@desc_icon_color = @text_visual_identity
+  -@caption = 'Bancos parceiros'
+  =render 'home/partials/components/feature'
+
+  -@desc_icon = 'mdi-hardware-security'
+  -@caption = 'Segurança & Antifraude ClearSafe'
+  -@desc_icon_color = @text_visual_identity2
+  =render 'home/partials/components/feature'
+
+  -@desc_icon = 'mdi-action-autorenew'
+  -@caption = 'Retentativa inteligente'
+  -@desc_icon_color = @text_visual_identity3
+  =render 'home/partials/components/feature'
+
+.row
+  -@desc_icon = 'fa fa-barcode'
+  -@desc_icon_color = @text_visual_identity
+  -@caption = 'Cobrança com Boleto'
+  =render 'home/partials/components/feature'
+
+  -@desc_icon = 'fa fa-credit-card'
+  -@desc_icon_color = @text_visual_identity2
+  -@caption = 'Cobrança com Crédito & Débtido'
+  =render 'home/partials/components/feature'
+
+  -@desc_icon = 'fa fa-calendar'
+  -@desc_icon_color = @text_visual_identity3
+  -@caption = 'Crie assinaturas e planos'
+  =render 'home/partials/components/feature'
+
+.row
+  -@desc_icon = 'mdi-action-swap-vert'
+  -@desc_icon_color = @text_visual_identity
+  -@caption = 'Repasse/Comissão simplificada'
+  =render 'home/partials/components/feature'
+
+  -@partner_url = 'http://pagerenter.com.br'
+  -@desc_icon = 'page_renter_logo.png'
+  -@desc_icon_color = @text_visual_identity
+  -@caption = 'Integração PageRenter'
+  =render 'home/partials/components/feature'
+
+  -@desc_icon = 'mdi-notification-play-install'
+  -@desc_icon_color = @text_visual_identity2
+  -@caption = 'Seja nosso parceiro'
+  =render 'home/partials/components/feature'
+
+/! TODO o que mais por?
+  -@desc_icon = 'fa fa-calendar'
+  -@desc_icon_color = @text_visual_identity3
+  -@caption = 'Crie assinaturas e planos'
+  =render 'home/partials/components/feature'
